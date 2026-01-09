@@ -1,0 +1,74 @@
+/* Couleurs et polices */
+:root {
+  --main-color: #4CAF50;
+  --secondary-color: #ffffff;
+  --bg-color: #f0f2f5;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: #333;
+}
+
+/* Header */
+header {
+  background: var(--main-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Bouton pour changer fond */
+button#themeBtn {
+  padding: 8px 12px;
+  background: var(--main-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button#themeBtn:hover {
+  opacity: 0.8;
+}
