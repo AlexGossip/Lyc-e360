@@ -3,18 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aide scolaire – Lycée XYZ</title>
-  <meta name="description" content="Site d'aide scolaire pour les élèves du lycée XYZ">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f0f2f5; }
-    header { background:#4CAF50; color:white; padding:20px; text-align:center; }
-    nav { background:#333; overflow:hidden; }
-    nav a { float:left; color:white; padding:14px 20px; text-decoration:none; }
-    nav a:hover { background:#ddd; color:black; }
-    main { padding:20px; }
-    footer { background:#333; color:white; text-align:center; padding:10px; margin-top:20px; }
-    section { margin-bottom:20px; }
-  </style>
+  <title>Site Lycée – Accueil</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
@@ -22,31 +12,29 @@
   </header>
 
   <nav>
-    <a href="#cours">Cours</a>
-    <a href="#exercices">Exercices</a>
-    <a href="#aide">Aide</a>
-    <a href="#forum">Forum</a>
+    <a href="index.html">Accueil</a>
+    <a href="cours.html">Cours</a>
+    <a href="exercices.html">Exercices</a>
+    <a href="aide.html">Aide</a>
+    <a href="forum.html">Forum</a>
+    <a href="admin.html">Admin</a>
+    <a href="proprio.html">Propriétaire</a>
   </nav>
 
   <main>
-    <section id="cours">
-      <h2>Cours</h2>
-      <p>Accédez à tous les cours par matière et niveau.</p>
+    <section>
+      <h2>Présentation</h2>
+      <p>Ce site permet aux élèves d'accéder à tous les cours, exercices et espaces d'aide.</p>
     </section>
 
-    <section id="exercices">
-      <h2>Exercices</h2>
-      <p>Travaillez vos exercices et consultez les corrigés.</p>
-    </section>
-
-    <section id="aide">
-      <h2>Espace Aide</h2>
-      <p>Posez vos questions et recevez de l'aide de vos camarades.</p>
-    </section>
-
-    <section id="forum">
-      <h2>Forum</h2>
-      <p>Rejoignez le forum pour discuter des cours et des exercices.</p>
+    <section>
+      <h2>Navigation rapide</h2>
+      <ul>
+        <li><a href="cours.html">Voir les cours par niveau</a></li>
+        <li><a href="exercices.html">Accéder aux exercices</a></li>
+        <li><a href="aide.html">Poser une question</a></li>
+        <li><a href="forum.html">Rejoindre le forum</a></li>
+      </ul>
     </section>
   </main>
 
